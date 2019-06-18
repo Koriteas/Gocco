@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07C94A3E22B0323C005744F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A3D22B0323C005744F9 /* AppDelegate.swift */; };
 		07C94A4022B0323C005744F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A3F22B0323C005744F9 /* SceneDelegate.swift */; };
-		07C94A4222B0323C005744F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A4122B0323C005744F9 /* ContentView.swift */; };
+		07C94A4222B0323C005744F9 /* TabbedMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A4122B0323C005744F9 /* TabbedMainView.swift */; };
 		07C94A4422B03240005744F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C94A4322B03240005744F9 /* Assets.xcassets */; };
 		07C94A4722B03240005744F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C94A4622B03240005744F9 /* Preview Assets.xcassets */; };
 		07C94A4A22B03240005744F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C94A4822B03240005744F9 /* LaunchScreen.storyboard */; };
+		07C94A5822B03973005744F9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07C94A5722B03973005744F9 /* Alamofire */; };
+		07C94A5D22B039AC005744F9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A5C22B039AC005744F9 /* Category.swift */; };
+		07C94A5F22B04391005744F9 /* GoccoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A5E22B04391005744F9 /* GoccoAPI.swift */; };
+		07C94A6222B2BDED005744F9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 07C94A6122B2BDED005744F9 /* AlamofireImage */; };
+		07C94A6422B2BE0F005744F9 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A6322B2BE0F005744F9 /* ImageDownloader.swift */; };
+		07C94A6622B2CA28005744F9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A6522B2CA28005744F9 /* Router.swift */; };
+		07C94A6822B2D056005744F9 /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A6722B2D056005744F9 /* CategoryViewModel.swift */; };
+		07C94A6A22B2DEDE005744F9 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A6922B2DEDE005744F9 /* CategoryList.swift */; };
+		07C94A7122B696C7005744F9 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7022B696C7005744F9 /* Money.swift */; };
+		07C94A7322B69862005744F9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7222B69862005744F9 /* Item.swift */; };
+		07C94A7522B6A513005744F9 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7422B6A513005744F9 /* Filter.swift */; };
+		07C94A7722B6B55E005744F9 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7622B6B55E005744F9 /* SearchResult.swift */; };
+		07C94A7922B6CA59005744F9 /* SearchItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7822B6CA59005744F9 /* SearchItemViewModel.swift */; };
+		07C94A7D22B6D5AF005744F9 /* SearchItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7C22B6D5AF005744F9 /* SearchItemList.swift */; };
+		07C94A7F22B82796005744F9 /* SwiftExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C94A7E22B82796005744F9 /* SwiftExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07C94A3A22B0323C005744F9 /* Gocco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gocco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C94A3D22B0323C005744F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07C94A3F22B0323C005744F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07C94A4122B0323C005744F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07C94A4122B0323C005744F9 /* TabbedMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedMainView.swift; sourceTree = "<group>"; };
 		07C94A4322B03240005744F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C94A4622B03240005744F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07C94A4922B03240005744F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07C94A4B22B03240005744F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C94A5C22B039AC005744F9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		07C94A5E22B04391005744F9 /* GoccoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoccoAPI.swift; sourceTree = "<group>"; };
+		07C94A6322B2BE0F005744F9 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		07C94A6522B2CA28005744F9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		07C94A6722B2D056005744F9 /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		07C94A6922B2DEDE005744F9 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		07C94A7022B696C7005744F9 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		07C94A7222B69862005744F9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		07C94A7422B6A513005744F9 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		07C94A7622B6B55E005744F9 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		07C94A7822B6CA59005744F9 /* SearchItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemViewModel.swift; sourceTree = "<group>"; };
+		07C94A7C22B6D5AF005744F9 /* SearchItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemList.swift; sourceTree = "<group>"; };
+		07C94A7E22B82796005744F9 /* SwiftExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C94A5822B03973005744F9 /* Alamofire in Frameworks */,
+				07C94A6222B2BDED005744F9 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +86,16 @@
 		07C94A3C22B0323C005744F9 /* Gocco */ = {
 			isa = PBXGroup;
 			children = (
+				07C94A4322B03240005744F9 /* Assets.xcassets */,
 				07C94A3D22B0323C005744F9 /* AppDelegate.swift */,
 				07C94A3F22B0323C005744F9 /* SceneDelegate.swift */,
-				07C94A4122B0323C005744F9 /* ContentView.swift */,
-				07C94A4322B03240005744F9 /* Assets.xcassets */,
-				07C94A4822B03240005744F9 /* LaunchScreen.storyboard */,
 				07C94A4B22B03240005744F9 /* Info.plist */,
+				07C94A4822B03240005744F9 /* LaunchScreen.storyboard */,
+				07C94A5122B03297005744F9 /* Net */,
+				07C94A5322B032B4005744F9 /* Model */,
+				07C94A5422B032BA005744F9 /* ViewModel */,
+				07C94A5522B032C6005744F9 /* Views */,
+				07C94A6F22B69676005744F9 /* Helper */,
 				07C94A4522B03240005744F9 /* Preview Content */,
 			);
 			path = Gocco;
@@ -73,6 +107,55 @@
 				07C94A4622B03240005744F9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07C94A5122B03297005744F9 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				07C94A5E22B04391005744F9 /* GoccoAPI.swift */,
+				07C94A6322B2BE0F005744F9 /* ImageDownloader.swift */,
+				07C94A6522B2CA28005744F9 /* Router.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		07C94A5322B032B4005744F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07C94A5C22B039AC005744F9 /* Category.swift */,
+				07C94A7222B69862005744F9 /* Item.swift */,
+				07C94A7422B6A513005744F9 /* Filter.swift */,
+				07C94A7622B6B55E005744F9 /* SearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07C94A5422B032BA005744F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				07C94A6722B2D056005744F9 /* CategoryViewModel.swift */,
+				07C94A7822B6CA59005744F9 /* SearchItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07C94A5522B032C6005744F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07C94A4122B0323C005744F9 /* TabbedMainView.swift */,
+				07C94A6922B2DEDE005744F9 /* CategoryList.swift */,
+				07C94A7C22B6D5AF005744F9 /* SearchItemList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07C94A6F22B69676005744F9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07C94A7022B696C7005744F9 /* Money.swift */,
+				07C94A7E22B82796005744F9 /* SwiftExtension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +174,10 @@
 			dependencies = (
 			);
 			name = Gocco;
+			packageProductDependencies = (
+				07C94A5722B03973005744F9 /* Alamofire */,
+				07C94A6122B2BDED005744F9 /* AlamofireImage */,
+			);
 			productName = Gocco;
 			productReference = 07C94A3A22B0323C005744F9 /* Gocco.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +206,10 @@
 				Base,
 			);
 			mainGroup = 07C94A3122B0323C005744F9;
+			packageReferences = (
+				07C94A5622B03973005744F9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				07C94A6022B2BDED005744F9 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 07C94A3B22B0323C005744F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +237,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C94A7D22B6D5AF005744F9 /* SearchItemList.swift in Sources */,
+				07C94A5F22B04391005744F9 /* GoccoAPI.swift in Sources */,
+				07C94A7522B6A513005744F9 /* Filter.swift in Sources */,
 				07C94A3E22B0323C005744F9 /* AppDelegate.swift in Sources */,
+				07C94A7922B6CA59005744F9 /* SearchItemViewModel.swift in Sources */,
 				07C94A4022B0323C005744F9 /* SceneDelegate.swift in Sources */,
-				07C94A4222B0323C005744F9 /* ContentView.swift in Sources */,
+				07C94A6622B2CA28005744F9 /* Router.swift in Sources */,
+				07C94A6822B2D056005744F9 /* CategoryViewModel.swift in Sources */,
+				07C94A4222B0323C005744F9 /* TabbedMainView.swift in Sources */,
+				07C94A7F22B82796005744F9 /* SwiftExtension.swift in Sources */,
+				07C94A7722B6B55E005744F9 /* SearchResult.swift in Sources */,
+				07C94A7322B69862005744F9 /* Item.swift in Sources */,
+				07C94A7122B696C7005744F9 /* Money.swift in Sources */,
+				07C94A6422B2BE0F005744F9 /* ImageDownloader.swift in Sources */,
+				07C94A5D22B039AC005744F9 /* Category.swift in Sources */,
+				07C94A6A22B2DEDE005744F9 /* CategoryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +446,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07C94A5622B03973005744F9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07C94A6022B2BDED005744F9 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07C94A5722B03973005744F9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07C94A5622B03973005744F9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		07C94A6122B2BDED005744F9 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07C94A6022B2BDED005744F9 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07C94A3222B0323C005744F9 /* Project object */;
 }

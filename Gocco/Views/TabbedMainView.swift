@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView : View {
+struct TabbedMainView : View {
     @State private var selection = 0
- 
+
     var body: some View {
-        TabbedView(selection: $selection){
-            Text("First View")
-                .font(.title)
-                .tabItemLabel(Image("first"))
+        TabbedView(selection: $selection) {
+            CategoryList()
+                .environmentObject(CategoryViewModel())
+                .tabItemLabel(Image("home"))
                 .tag(0)
             Text("Second View")
                 .font(.title)
@@ -28,7 +28,7 @@ struct ContentView : View {
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabbedMainView()
     }
 }
 #endif
